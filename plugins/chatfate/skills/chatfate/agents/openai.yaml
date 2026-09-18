@@ -1,0 +1,7 @@
+interface:
+  display_name: "ChatFate"
+  short_description: "从问一件事或人生命盘开始，先读概要与完整预览，再按需深入"
+  default_prompt: "使用 $chatfate 开始使用 ChatFate；由原生卡片选择产品。wait 后分别选择 life.v1、daily.v3、annual.v1 参数，六爻沿原流程。Life/Annual 使用本次 minimalFacts 和完整 authoring.instructions，Daily 使用本次 dailyFacts 与完整 authoring.instructions，一次写作，已有报告直接交付，不重复生成。"
+
+policy:
+  allow_implicit_invocation: true

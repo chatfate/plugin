@@ -1,0 +1,36 @@
+{
+  "name": "chatfate",
+  "version": "0.9.2+codex.20260918",
+  "description": "在 Codex 中问一件事、认识自己，也可看今日与年度。",
+  "author": {
+    "name": "ChatFate",
+    "url": "https://chatfate.cc"
+  },
+  "homepage": "https://chatfate.cc",
+  "repository": "https://github.com/chatfate/plugin.git",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ChatFate",
+    "shortDescription": "问一件事，或多认识自己一点。",
+    "longDescription": "从问一件事或看自己开始，也可看今日与年度。固定引擎排盘，Codex 根据本问与依据解读。看自己免费展示出生信息、基础命盘与命局概览，从“命局与性情”起按需解锁；其他产品按报告页的试读与权益规则展示。Google 登录保存报告，可回看、打印或删除。今日免费。传统文化参考，不保证现实预测。",
+    "developerName": "ChatFate",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://chatfate.cc",
+    "privacyPolicyURL": "https://chatfate.cc/privacy",
+    "termsOfServiceURL": "https://chatfate.cc/terms",
+    "brandColor": "#0D0D0D",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo.png",
+    "defaultPrompt": [
+      "开始使用 ChatFate",
+      "看看我的年度主题",
+      "围绕一件事问一卦"
+    ]
+  }
+}
